@@ -1,0 +1,9 @@
+{
+  "item.aresismod.moonruby": "Moon Ruby",
+  "item.aresismod.moonsilver_ingot": "Moon Silver Ingot",
+  "item.aresismod.raw_moonsilver" : "Raw Moon Silver",
+
+  "block.aresismod.moonsilver_block": "Block of Moon Silver",
+
+  "creativetab.experiment_tab": "Experiment Mod"
+}
