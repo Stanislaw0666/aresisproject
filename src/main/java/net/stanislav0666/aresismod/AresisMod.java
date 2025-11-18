@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.stanislav0666.aresismod.block.ModBlocks;
+import net.stanislav0666.aresismod.entity.ModEntities;
 import net.stanislav0666.aresismod.item.ModCreativeModTabs;
 import net.stanislav0666.aresismod.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,10 @@ public class AresisMod {
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        //ModEntities.ENTITY_TYPES.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);

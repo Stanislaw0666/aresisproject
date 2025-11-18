@@ -35,8 +35,8 @@ import net.minecraft.world.entity.monster.WitherSkeleton;
 import net.minecraft.world.level.Level;
 
 public class Heved extends Husk {
-    public Heved(EntityType<? extends Husk> p_32889_, Level p_32890_) {
-        super(p_32889_, p_32890_);
+    public Heved(EntityType<? extends Husk> type, Level world) {
+        super(type, world);
     }
 
     public static AttributeSupplier.Builder createAttributes() {
