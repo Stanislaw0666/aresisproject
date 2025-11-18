@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,8 +15,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.stanislav0666.aresismod.block.ModBlocks;
 import net.stanislav0666.aresismod.entity.ModEntities;
+import net.stanislav0666.aresismod.event.ModEventBusEvents;
 import net.stanislav0666.aresismod.item.ModCreativeModTabs;
 import net.stanislav0666.aresismod.item.ModItems;
+import net.stanislav0666.aresismod.rederer.entity.HevedRenderer;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -29,13 +32,19 @@ public class AresisMod {
 
         ModCreativeModTabs.register(modEventBus);
 
+
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
 
-        //ModEntities.ENTITY_TYPES.register(modEventBus);
+        ModEntities.ENTITY_TYPES.register(modEventBus);
 
-        ModEntities.register(modEventBus);
+        //ModEventBusEvents.register(modEventBus);
+
+
+        //ModEntities.register(modEventBus);
+
+        //HevedRenderer.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);

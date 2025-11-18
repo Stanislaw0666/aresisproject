@@ -15,6 +15,9 @@ public class HevedRenderer extends HuskRenderer {
         super(context);
     }
 
+    //public static void register(IEventBus modEventBus) {
+    //}
+
     public ResourceLocation getTextureLocation(AbstractZombieRenderer entity) {
         return HUSK_LOCATION;
     }
