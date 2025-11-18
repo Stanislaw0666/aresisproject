@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "moonsilver_ingot",
+  "ingredient": {
+    "item": "aresismod:raw_moonsilver"
+  },
+  "result": "aresismod:moonsilver_ingot"
+}

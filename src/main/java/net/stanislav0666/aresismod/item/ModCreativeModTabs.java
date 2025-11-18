@@ -24,6 +24,10 @@ public static final RegistryObject<CreativeModeTab> ARESISMOD_TAB = CREATIVE_MOD
                     p0utput.accept(ModItems.MOONSILVER_INGOT.get());
                     p0utput.accept(ModItems.RAW_MOONSILVER.get());
                     p0utput.accept(ModBlocks.MOONSILVER_BLOCK.get());
+                    p0utput.accept(ModItems.ESHVEDAKT_PATTERN_GREATSWORD.get());
+                    p0utput.accept(ModItems.MOONSILVER_HALBERD.get());
+
+
 
                 })
 

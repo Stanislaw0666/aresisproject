@@ -5,5 +5,14 @@
 
   "block.aresismod.moonsilver_block": "Block of Moon Silver",
 
-  "creativetab.experiment_tab": "Experiment Mod"
+  "item.aresismod.eshvedakt_pattern_greatsword": "Esh'Ved'Akt Pattern Greatsword",
+  "item.aresismod.moonsilver_halberd": "Moonsilver Halberd",
+
+  "item.aresismod.light_cultist_helmet": "Light Cultist Helmet",
+  "item.aresismod.light_cultist_chestplate": "Light Cultist Chestplate",
+  "item.aresismod.light_cultist_leggings": "Light Cultist Leggings",
+  "item.aresismod.light_cultist_boots": "Light Cultist Boots",
+
+
+  "creativetab.aresismod_tab": "Experiment Mod"
 }

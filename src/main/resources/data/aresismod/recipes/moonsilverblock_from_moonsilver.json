@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aresismod:moonsilver_ingot"
+    }
+  },
+  "result": {
+    "item": "aresismod:moonsilver_block"
+  }
+}
